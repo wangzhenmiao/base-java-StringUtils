@@ -23,7 +23,7 @@ public class StringUtilsTestJoin {
         System.out.println("StringUtils.join(list,\",\")："+listjoin2);
 
         StringBuffer sb=new StringBuffer();
-        sb.append("x,y,z,");
+        sb.append("x,y,z,2");
         String arrjoin=StringUtils.join(sb.toString().split(","));
         String arrjoin2=StringUtils.join(sb.toString().split(","),";");
 
